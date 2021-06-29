@@ -1,0 +1,33 @@
+main {
+  position: absolute;
+  width: 30vw;
+  color: $quaternary-color;
+  left: 8vw;
+  top: 20vh;
+
+  hgroup {
+    h2 {
+      width: 100%;
+      font-size: 2.5rem;
+      font-weight: 300;
+    }
+
+    h3 {
+      width: 100%;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+  }
+
+  p {
+    margin-top: 2em;
+  }
+
+  button {
+    background-color: $primary-color;
+    border-radius: 10em;
+    padding: 0.5em 2em;
+    color: $ft-white;
+    margin-top: 2em;
+  }
+}

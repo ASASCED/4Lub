@@ -1,0 +1,15 @@
+// Config
+@import "./config/colors";
+@import "./config/reset";
+
+// Components
+@import "./components/header";
+@import "./components/main";
+@import "./components/content";
+@import "./components/products";
+@import "./components/testimonials";
+
+.app-root {
+  height: 100vh;
+  width: 100vw;
+}

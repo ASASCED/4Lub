@@ -1,0 +1,22 @@
+.testimonials {
+  padding: 1em 6vw;
+
+  &__testimonial {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 2em;
+    padding: 1em 2em;
+    border-radius: 0.4em;
+
+    p {
+      font-size: 1.4rem;
+    }
+
+    i {
+      margin-left: 2em;
+      font-size: 2rem;
+      color: $primary-color;
+    }
+  }
+}
