@@ -1,11 +1,12 @@
 .testimonials {
   padding: 1em 6vw;
+  overflow-x: hidden;
 
   &__testimonial {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     background-color: white;
-    margin-bottom: 2em;
     padding: 1em 2em;
     border-radius: 0.4em;
 
@@ -14,8 +15,8 @@
     }
 
     i {
-      margin-left: 2em;
-      font-size: 2rem;
+      margin: 0.5em auto;
+      font-size: 5rem;
       color: $primary-color;
     }
   }
