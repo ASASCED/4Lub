@@ -105,7 +105,6 @@ export const Content = () => {
           showThumbs={false}
           infiniteLoop={true}
           interval="3700"
-          minimized={false}
         >
           <div className="content__item-cr">
             <img src={x1} alt="x1" />
