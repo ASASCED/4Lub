@@ -44,8 +44,14 @@ export const Content = () => {
         </Carousel>
         <h4>01. Titulo</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero
-          error explicabo, assumenda quam quasi.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam natus
+          facere quia numquam. Nam itaque optio iste dolore amet quis corporis
+          accusantium? Corrupti nisi magni totam in iusto veniam perferendis
+          veritatis ipsa consequuntur nobis. Perferendis veritatis ut unde
+          harum, ducimus impedit aperiam dolore excepturi assumenda neque
+          temporibus magnam magni dignissimos aspernatur vero at totam,
+          explicabo beatae consequatur vel, tenetur nulla quia eius! Repellat
+          provident id molestiae nemo! Voluptate, ullam iusto.
         </p>
       </div>
       <div className="content__box">
@@ -74,13 +80,21 @@ export const Content = () => {
             <img src={t5} alt="t5" />
           </div>
         </Carousel>
-        <div className="desc">
-          <h4>01. Titulo</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero
-            error explicabo, assumenda quam quasi.
-          </p>
-        </div>
+        <h4>01. Titulo</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, eos
+          blanditiis pariatur explicabo accusamus illo consectetur natus,
+          magnam, aperiam laboriosam itaque quam! Ipsum cupiditate quia
+          molestias delectus voluptatum nesciunt adipisci facere enim officia.
+          Minus cum aspernatur doloremque neque nulla aliquid soluta debitis ut
+          architecto eaque nisi dicta voluptate dolorum quasi suscipit, quidem
+          possimus, commodi beatae corporis explicabo, fugit eos vitae?
+          Necessitatibus harum accusantium id odit praesentium! Perspiciatis
+          similique ipsa laudantium voluptatum ex qui eum unde placeat sapiente
+          soluta aspernatur optio quisquam deleniti alias adipisci iure, dicta
+          deserunt nemo architecto commodi tenetur! Molestiae fuga labore
+          ducimus voluptatibus consequatur quo ipsam praesentium!
+        </p>
       </div>
       <div className="content__box">
         <Carousel
@@ -110,8 +124,11 @@ export const Content = () => {
         </Carousel>
         <h4>01. Titulo</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero
-          error explicabo, assumenda quam quasi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+          accusamus vel, quasi maxime iusto necessitatibus libero reprehenderit
+          quaerat hic earum debitis iure officiis nemo neque fugiat nobis labore
+          eius omnis esse eos qui. Earum repellendus reprehenderit ab
+          consequuntur recusandae omnis!
         </p>
       </div>
     </div>

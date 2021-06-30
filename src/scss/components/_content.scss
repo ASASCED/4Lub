@@ -5,6 +5,8 @@
   right: 0;
 
   &__box {
+    display: flex;
+    flex-direction: column;
     background-color: $primary-color;
     width: 25vw;
     margin: 0 1em;
@@ -29,23 +31,6 @@
       background-color: $quaternary-color;
     }
 
-    &::after {
-      content: "";
-      height: 100vh;
-      width: 3px;
-      background-color: $primary-color;
-      margin-right: 1em;
-    }
-
-    &::before {
-      content: "";
-      height: 5em;
-      width: 1em;
-      background-color: $primary-color;
-      margin-top: -30vh;
-      margin-right: 1em;
-    }
-
     img {
       width: 8em;
       margin: 0 auto;
@@ -60,15 +45,8 @@
     p {
       margin-top: 1em;
       color: $ft-white;
-
-      word-break: break-word;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      line-height: 16px; /* fallback */
-      max-height: 45px; /* fallback */
-      -webkit-line-clamp: 3; /* number of lines to show */
-      -webkit-box-orient: vertical;
+      flex-grow: 1;
+      overflow-y: auto;
     }
   }
 
