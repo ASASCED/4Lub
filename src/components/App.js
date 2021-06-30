@@ -31,7 +31,7 @@ export const App = () => {
         </div>
       </Router>
 
-      <WhatsAppWidget phoneNumber="+5215620192588" />
+      <WhatsAppWidget phoneNumber="+5215548250892" />
       <MessengerCustomerChat
         pageId="107889634770488"
         appId="544514809929470"
