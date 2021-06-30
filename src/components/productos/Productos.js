@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import { CarouselImg } from "../header/CarouselImg";
 import imgRender from "../../assets/render/01.png";
+
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 export const Productos = () => {
   const [open, setOpen] = useState(false);
@@ -15,116 +19,6 @@ export const Productos = () => {
       <CarouselImg />
       <div className="star">
         <img src={imgRender} alt="imgRender" />
-      </div>
-      <div className="products__item">
-        <div className="desc">
-          <h5>Producto</h5>
-          <span>$95.25</span>
-          <i className="far fa-heart"></i>
-          <button onClick={onOpenModal}>Ver mas...</button>
-        </div>
-        <figure>
-          <img src={imgRender} alt="imgRender" />
-        </figure>
-      </div>
-      <div className="products__item">
-        <div className="desc">
-          <h5>Producto</h5>
-          <span>$95.25</span>
-          <i className="far fa-heart"></i>
-          <button onClick={onOpenModal}>Ver mas...</button>
-        </div>
-        <figure>
-          <img src={imgRender} alt="imgRender" />
-        </figure>
-      </div>
-      <div className="products__item">
-        <div className="desc">
-          <h5>Producto</h5>
-          <span>$95.25</span>
-          <i className="far fa-heart"></i>
-          <button onClick={onOpenModal}>Ver mas...</button>
-        </div>
-        <figure>
-          <img src={imgRender} alt="imgRender" />
-        </figure>
-      </div>
-      <div className="products__item">
-        <div className="desc">
-          <h5>Producto</h5>
-          <span>$95.25</span>
-          <i className="far fa-heart"></i>
-          <button onClick={onOpenModal}>Ver mas...</button>
-        </div>
-        <figure>
-          <img src={imgRender} alt="imgRender" />
-        </figure>
-      </div>
-      <div className="products__item">
-        <div className="desc">
-          <h5>Producto</h5>
-          <span>$95.25</span>
-          <i className="far fa-heart"></i>
-          <button onClick={onOpenModal}>Ver mas...</button>
-        </div>
-        <figure>
-          <img src={imgRender} alt="imgRender" />
-        </figure>
-      </div>
-      <div className="products__item">
-        <div className="desc">
-          <h5>Producto</h5>
-          <span>$95.25</span>
-          <i className="far fa-heart"></i>
-          <button onClick={onOpenModal}>Ver mas...</button>
-        </div>
-        <figure>
-          <img src={imgRender} alt="imgRender" />
-        </figure>
-      </div>
-      <div className="products__item">
-        <div className="desc">
-          <h5>Producto</h5>
-          <span>$95.25</span>
-          <i className="far fa-heart"></i>
-          <button onClick={onOpenModal}>Ver mas...</button>
-        </div>
-        <figure>
-          <img src={imgRender} alt="imgRender" />
-        </figure>
-      </div>
-      <div className="products__item">
-        <div className="desc">
-          <h5>Producto</h5>
-          <span>$95.25</span>
-          <i className="far fa-heart"></i>
-          <button onClick={onOpenModal}>Ver mas...</button>
-        </div>
-        <figure>
-          <img src={imgRender} alt="imgRender" />
-        </figure>
-      </div>
-      <div className="products__item">
-        <div className="desc">
-          <h5>Producto</h5>
-          <span>$95.25</span>
-          <i className="far fa-heart"></i>
-          <button onClick={onOpenModal}>Ver mas...</button>
-        </div>
-        <figure>
-          <img src={imgRender} alt="imgRender" />
-        </figure>
-      </div>
-      <div className="products__item">
-        <div className="desc">
-          <h5>Producto</h5>
-          <span>$95.25</span>
-          <i className="far fa-heart"></i>
-          <button onClick={onOpenModal}>Ver mas...</button>
-        </div>
-        <figure>
-          <img src={imgRender} alt="imgRender" />
-        </figure>
       </div>
       <div className="products__item">
         <div className="desc">
@@ -416,9 +310,31 @@ export const Productos = () => {
               asperiores repellat.
             </p>
           </div>
-          <figure>
-            <img src={imgRender} alt="imgRender" />
-          </figure>
+          <Carousel
+            autoPlay={true}
+            showArrows={false}
+            showStatus={false}
+            dynamicHeight={false}
+            showThumbs={false}
+            infiniteLoop={true}
+            interval="3300"
+          >
+            <div className="content__item-cr">
+              <img src={imgRender} alt="imgRender" />
+            </div>
+            <div className="content__item-cr">
+              <img src={imgRender} alt="imgRender" />
+            </div>
+            <div className="content__item-cr">
+              <img src={imgRender} alt="imgRender" />
+            </div>
+            <div className="content__item-cr">
+              <img src={imgRender} alt="imgRender" />
+            </div>
+            <div className="content__item-cr">
+              <img src={imgRender} alt="imgRender" />
+            </div>
+          </Carousel>
         </div>
       </Modal>
     </div>
