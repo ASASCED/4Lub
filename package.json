@@ -30,6 +30,9 @@
       "react-app/jest"
     ]
   },
+  "cacheDirectories": [
+    "data"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
