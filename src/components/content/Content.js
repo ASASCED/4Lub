@@ -36,21 +36,11 @@ export const Content = () => {
           infiniteLoop={true}
           interval="3100"
         >
-          <div className="content__item-cr">
-            <img src={max1} alt="max1" />
-          </div>
-          <div className="content__item-cr">
-            <img src={max2} alt="max2" />
-          </div>
-          <div className="content__item-cr">
-            <img src={max3} alt="max3" />
-          </div>
-          <div className="content__item-cr">
-            <img src={max4} alt="max4" />
-          </div>
-          <div className="content__item-cr">
-            <img src={max5} alt="max5" />
-          </div>
+          <img src={max1} alt="max1" />
+          <img src={max2} alt="max2" />
+          <img src={max3} alt="max3" />
+          <img src={max4} alt="max4" />
+          <img src={max5} alt="max5" />
         </Carousel>
         <h4>01. Titulo</h4>
         <p>
