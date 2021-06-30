@@ -14,12 +14,12 @@
     max-width: 25em;
 
     &:first-child {
-      height: 40vh;
+      height: 50vh;
       background-color: $tertiary-color;
     }
 
     &:nth-child(2) {
-      height: 50vh;
+      height: 55vh;
     }
 
     &:last-child {
@@ -60,6 +60,43 @@
     p {
       margin-top: 1em;
       color: $ft-white;
+
+      word-break: break-word;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      line-height: 16px; /* fallback */
+      max-height: 45px; /* fallback */
+      -webkit-line-clamp: 3; /* number of lines to show */
+      -webkit-box-orient: vertical;
+    }
+  }
+
+  .carousel-root {
+    height: 50%;
+  }
+
+  .carousel {
+    width: 18vw !important;
+    margin: 0 auto !important;
+    height: 100%;
+
+    .content__item-cr {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: flex-start;
+
+      p {
+        text-align: start;
+      }
+    }
+
+    .control-dots {
+      margin: 0 !important;
+    }
+
+    img {
+      width: 8em !important;
     }
   }
 }

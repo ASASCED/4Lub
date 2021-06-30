@@ -12,20 +12,20 @@
 
   .carousel {
     width: 60vw !important;
-    height: 40vh;
+    height: 25em;
     border-radius: 0.5em;
   }
 
   .star {
-    display: inline-block;
-    height: 40vh;
+    display: flex;
+    height: 25em;
     width: 25vw;
-    margin-left: 3vw;
+    margin-left: auto;
     border-radius: 0.5em;
     background-color: $quaternary-color;
 
     img {
-      margin: 2.5em auto;
+      margin: auto;
     }
   }
 

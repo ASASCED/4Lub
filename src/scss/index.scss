@@ -12,4 +12,27 @@
 .app-root {
   height: 100vh;
   width: 100vw;
+
+  background-image: url("../assets/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-position: unset;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+
+  .widgets {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 20vh;
+    width: 10em;
+    background-color: red;
+  }
+}
+
+#root > div:nth-child(2) > div:last-child {
+  margin-right: 4em;
 }

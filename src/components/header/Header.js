@@ -18,8 +18,8 @@ export const Header = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName="selected" to="/testimonios">
-              TESTIMONIOS
+            <NavLink activeClassName="selected" to="/blog">
+              BLOG
             </NavLink>
           </li>
           <li>

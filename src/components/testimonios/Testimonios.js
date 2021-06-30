@@ -4,6 +4,7 @@ export const Testimonios = () => {
   return (
     <div className="testimonials">
       <div className="testimonials__testimonial">
+        <i class="fas fa-user-circle"></i>
         <p>
           Luz al final del tunel Juan vivía con su padre, la madre de Juan
           desapareció un día sin decir nada y nunca mas supieron de ella, su
@@ -364,7 +365,6 @@ export const Testimonios = () => {
           feliz como le izo ella, Sonia consiguió hacerle tan feliz o mas de lo
           que lo fue con Aurora.
         </p>
-        <i class="fas fa-user-circle"></i>
       </div>
     </div>
   );

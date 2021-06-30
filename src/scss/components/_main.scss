@@ -3,7 +3,8 @@ main {
   width: 30vw;
   color: $quaternary-color;
   left: 8vw;
-  top: 20vh;
+  top: 18vh;
+  min-width: 40em;
 
   hgroup {
     h2 {
@@ -21,6 +22,7 @@ main {
 
   p {
     margin-top: 2em;
+    color: $ft-white;
   }
 
   button {
