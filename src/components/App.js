@@ -14,6 +14,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import { Testimonios } from "./testimonios/Testimonios";
+import { Contacto } from "./contact/Contacto";
 
 export const App = () => {
   return (
@@ -26,6 +27,7 @@ export const App = () => {
             <Route exact path="/inicio" component={Home} />
             <Route exact path="/productos" component={Productos} />
             <Route exact path="/blog" component={Testimonios} />
+            <Route exact path="/contacto" component={Contacto} />
             <Redirect to="/inicio" />
           </Switch>
         </div>

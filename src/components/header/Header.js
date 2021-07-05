@@ -19,12 +19,12 @@ export const Header = () => {
           </li>
           <li>
             <NavLink activeClassName="selected" to="/blog">
-              BLOG
+              CONTENIDO
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName="selected" to="/nosotros">
-              NOSOTROS
+            <NavLink activeClassName="selected" to="/contacto">
+              CONTACTO
             </NavLink>
           </li>
         </ul>

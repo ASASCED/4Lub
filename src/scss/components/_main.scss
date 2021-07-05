@@ -1,9 +1,10 @@
 main {
+  display: flex;
   position: absolute;
-  width: 30vw;
   color: $quaternary-color;
   left: 8vw;
   top: 18vh;
+  width: 90vw;
   min-width: 40em;
 
   hgroup {
@@ -31,5 +32,17 @@ main {
     padding: 0.5em 2em;
     color: $ft-white;
     margin-top: 2em;
+  }
+
+  .carousel-root {
+    width: 100% !important;
+    height: 30vh !important;
+    display: inline-block;
+  }
+
+  .carousel {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 0.5em;
   }
 }

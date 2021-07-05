@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { CarouselImg } from "../header/CarouselImg";
+import Collapsible from "react-collapsible";
 import imgRender from "../../assets/render/01.png";
 
 import max1 from "../../assets/productos/max 3 sobres/1.jpg";
@@ -22,10 +22,6 @@ export const Productos = () => {
 
   return (
     <div className="products">
-      <CarouselImg />
-      <div className="star">
-        <img src={imgRender} alt="imgRender" />
-      </div>
       <div className="products__item">
         <div className="desc">
           <h5>Producto</h5>
@@ -304,17 +300,100 @@ export const Productos = () => {
 
       <Modal open={open} onClose={onCloseModal} center>
         <div className="modal">
-          <div className="desc">
-            <h6>Product</h6>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              ut, corrupti tenetur eos temporibus neque mollitia ipsam odit
-              natus, totam, beatae magni repellendus? Nobis aliquam possimus
-              excepturi sunt eius quibusdam eum omnis non repellat dolore
-              aliquid aspernatur nesciunt consequatur recusandae veritatis
-              alias, laudantium eligendi. Eveniet quia dolore deserunt
-              asperiores repellat.
-            </p>
+          <div className="sub-menu">
+            <div className="desc">
+              <Collapsible
+                trigger={
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      cursor: "pointer",
+                      fontSize: "1.2rem",
+                    }}
+                    className="title"
+                  >
+                    <h5>Descripcion</h5>
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                }
+              >
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem ut, corrupti tenetur eos temporibus neque mollitia
+                  ipsam odit natus, totam, beatae magni repellendus? Nobis
+                  aliquam possimus excepturi sunt eius quibusdam eum omnis non
+                  repellat dolore aliquid aspernatur nesciunt consequatur
+                  recusandae veritatis alias, laudantium eligendi. Eveniet quia
+                  dolore deserunt asperiores repellat.
+                </p>
+              </Collapsible>
+            </div>
+            <div className="desc">
+              <Collapsible
+                trigger={
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      cursor: "pointer",
+                      fontSize: "1.2rem",
+                    }}
+                    className="title"
+                  >
+                    <h5>Modo de uso</h5>
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                }
+              >
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem ut, corrupti tenetur eos temporibus neque mollitia
+                  ipsam odit natus, totam, beatae magni repellendus? Nobis
+                  aliquam possimus excepturi sunt eius quibusdam eum omnis non
+                  repellat dolore aliquid aspernatur nesciunt consequatur
+                  recusandae veritatis alias, laudantium eligendi. Eveniet quia
+                  dolore deserunt asperiores repellat.
+                </p>
+              </Collapsible>
+            </div>
+            <div className="desc">
+              <Collapsible
+                trigger={
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      cursor: "pointer",
+                      fontSize: "1.2rem",
+                    }}
+                    className="title"
+                  >
+                    <h5>Precauciones</h5>
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                }
+              >
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem ut, corrupti tenetur eos temporibus neque mollitia
+                  ipsam odit natus, totam, beatae magni repellendus? Nobis
+                  aliquam possimus excepturi sunt eius quibusdam eum omnis non
+                  repellat dolore aliquid aspernatur nesciunt consequatur
+                  recusandae veritatis alias, laudantium eligendi. Eveniet quia
+                  dolore deserunt asperiores repellat.
+                </p>
+              </Collapsible>
+            </div>
+            <div className="buy">
+              <h6>Comprar</h6>
+              <button className="amz">
+                <i class="fab fa-amazon"></i> Amazon
+              </button>
+              <button className="ml">
+                <i class="fas fa-shopping-cart"></i> Mercado Libre
+              </button>
+            </div>
           </div>
           <Carousel
             autoPlay={true}

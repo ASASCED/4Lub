@@ -1,10 +1,12 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import Bg1 from "../../assets/FOTOS PRODUCTOS/ARP09649.JPG";
-import Bg2 from "../../assets/FOTOS PRODUCTOS/ARP09650.JPG";
-import Bg3 from "../../assets/FOTOS PRODUCTOS/ARP09651.JPG";
-import Bg4 from "../../assets/FOTOS PRODUCTOS/ARP09652.JPG";
+import Bg1 from "../../assets/carousel/01.jpeg";
+import Bg2 from "../../assets/carousel/02.jpeg";
+import Bg3 from "../../assets/carousel/03.jpeg";
+import Bg4 from "../../assets/carousel/04.jpeg";
+import Bg5 from "../../assets/carousel/05.jpeg";
+import Bg6 from "../../assets/carousel/06.jpeg";
 
 export const CarouselImg = () => {
   return (
@@ -27,6 +29,12 @@ export const CarouselImg = () => {
       </div>
       <div>
         <img alt="test" src={Bg4} />
+      </div>
+      <div>
+        <img alt="test" src={Bg5} />
+      </div>
+      <div>
+        <img alt="test" src={Bg6} />
       </div>
     </Carousel>
   );

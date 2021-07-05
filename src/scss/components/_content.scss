@@ -1,34 +1,30 @@
 .content {
   display: flex;
   position: absolute;
+  width: 80%;
   bottom: 0;
   right: 0;
+  justify-content: space-between;
+  padding: 0 6vw;
 
   &__box {
     display: flex;
     flex-direction: column;
-    background-color: $primary-color;
+    background-color: rgba($color: $primary-color, $alpha: 0.6);
     width: 25vw;
     margin: 0 1em;
     padding: 1em 2em;
     margin-top: auto;
     border-radius: 0.5em 0.5em 0 0;
     max-width: 25em;
+    height: 45vh;
 
     &:first-child {
-      height: 50vh;
-      background-color: $tertiary-color;
-    }
-
-    &:nth-child(2) {
-      height: 55vh;
+      background-color: rgba($color: $tertiary-color, $alpha: 0.6);
     }
 
     &:last-child {
-      height: 60vh;
-      margin-bottom: 10vh;
-      border-radius: 0.5em;
-      background-color: $quaternary-color;
+      background-color: rgba($color: $quaternary-color, $alpha: 0.6);
     }
 
     img {
@@ -70,10 +66,6 @@
 
     .control-dots {
       margin: 0 !important;
-    }
-
-    img {
-      width: 100%;
     }
   }
 }
